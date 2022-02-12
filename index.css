@@ -1,0 +1,122 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: darkgreen;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: AVENGEANCE;
+    src: url("./assets/fonts/AVENGEANCE-HEROIC-AVENGER-AT.otf");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #466174;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #1A3C58;
+    padding: 0 32px;
+    
+}
+
+.heroesContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.cardsContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border-color: darkslategrey;
+    margin: 1rem;  
+    background-color: whitesmoke;
+    padding: 50px;
+    width: 35%;
+}
+
+
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:inherit;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.atributes {
+    margin: 20px 0;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.filtro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    margin-right: 50px;
+}
+
+.filter-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60%;
+    width: 80px;
+}
+
+.filter-button > img {
+   width: 100%;
+
+}
+
+.find {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45%;
+    width: 300px;
+}
+
+.find > img {
+    height: 100%;
+}
+
+.find > input {
+    display: flex;
+    height: 80%;
+    width: 80%;
+    border-radius: 5px;
+    border-style: solid;
+}
